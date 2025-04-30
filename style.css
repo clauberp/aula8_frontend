@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;  /* Organiza header e conteúdo em coluna */
+    min-height: 100vh;      /* Garante que o body ocupe toda a altura da tela */
+}
+
+header {
+    background: #f0f0f0;    /* Cor de fundo opcional */
+    padding: 20px;
+    text-align: center;     /* Alinhamento do texto no header */
+}
+
+.conteudo {
+    display: flex;          /* Coloca main e #fotos lado a lado */
+    flex: 1;               /* Ocupa o espaço restante */
+    gap: 20px;             /* Espaço entre main e #fotos */
+    padding: 20px;
+}
+
+main {
+    flex: 1;               /* main ocupa o espaço disponível */
+}
+
+#fotos {
+    width: 300px;          /* Largura fixa para a div de fotos */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;             /* Espaço entre imagens */
+}
+
+#fotos img {
+    max-width: 100%;
+}
