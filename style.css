@@ -7,9 +7,15 @@ body {
 }
 
 header {
-    background: #f0f0f0;    /* Cor de fundo opcional */
     padding: 20px;
-    text-align: center;     /* Alinhamento do texto no header */
+}
+
+header img {
+    width: 100%;           /* ocupa toda a largura do contêiner */
+    height: auto;           /* Mantém a proporção da imagem */
+    border-radius: 27px;    /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Sombra suave */
+    border: 3px solid #000; /* borda preta de 3px */
 }
 
 .conteudo {
@@ -32,6 +38,18 @@ main {
 
 #fotos img {
     max-width: 100%;
+    height: auto;          /* Mantém a proporção da imagem */
+    border-radius: 15px;   /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Sombra suave */
+    opacity: 0.8;  /* imagem 80% opaca */
+}
+
+.dir {
+    transform: rotate(5deg);
+}
+
+.esq {
+    transform: rotate(-5deg);
 }
 
 p {
