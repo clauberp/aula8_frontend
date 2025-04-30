@@ -33,3 +33,11 @@ main {
 #fotos img {
     max-width: 100%;
 }
+
+p {
+    margin: 0;            /* Remove margens padrão */
+    padding: 10px;        /* Espaçamento interno */
+    background: #e0e0e0;  /* Cor de fundo opcional */
+    border-radius: 5px;   /* Bordas arredondadas */
+    text-align: justify
+}
